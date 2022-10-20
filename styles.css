@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+form{
+    border: 1px solid grey;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80%;
+}
+
+form *{
+    margin: 50px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    text-align: center;
+    /* color: purple; */
+    outline: none;
+    border: 1px solid grey;
+}
+
+.output{
+    color: blue;
+}
